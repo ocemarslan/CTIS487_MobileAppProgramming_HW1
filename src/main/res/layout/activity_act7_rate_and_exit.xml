@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".differentPack.FunctionsOfApp.Act7RateAndExit">
+
+
+    <ImageView
+        android:id="@+id/kalpImg"
+        android:layout_width="392dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/kalp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tv5StarsHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/try5"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thankYouMsg"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/APPratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/userRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/extAppBtn"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exitAPP"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+</LinearLayout>

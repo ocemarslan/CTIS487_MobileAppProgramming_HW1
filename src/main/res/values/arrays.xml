@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="instructors">
+        <item>Not Selected</item>
+        <item>Erkan UÇAR</item>
+        <item>Serpil TIN</item>
+        <item>Neşe ŞAHİN ÖZÇELİK</item>
+    </array>
+
+    <string-array name="assistants">
+        <item>Not Selected</item>
+        <item>Leyla SEZER</item>
+        <item>Burcu ALPER</item>
+        <item>Hatice Zehra YILMAZ</item>
+    </string-array>
+</resources>
